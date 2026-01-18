@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f2f9f1;
+  color: #2f4f2f;
+}
+
+header {
+  background: #2e7d32;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.hero {
+  padding: 40px;
+  text-align: center;
+  background: #e8f5e9;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background: #2e7d32;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.products {
+  padding: 40px;
+  text-align: center;
+}
+
+.card {
+  background: white;
+  width: 250px;
+  display: inline-block;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.price {
+  color: #1b5e20;
+  font-weight: bold;
+}
+
+.contact {
+  background: #e0f2f1;
+  padding: 30px;
+  text-align: center;
+}
+
+footer {
+  background: #2e7d32;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+
+.murugan {
+  width: 120px;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
