@@ -9,81 +9,46 @@
       margin: 0;
       font-family: Arial, sans-serif;
       background: #f4f6f2;
-      color: #2f3e2f;
     }
     header {
       background: #1f4d2b;
-      color: white;
-      padding: 20px;
+      color: #fff;
+      padding: 15px 25px;
       display: flex;
       justify-content: space-between;
       align-items: center;
     }
-    header h1 {
-      margin: 0;
-    }
+    header h1 { margin: 0; }
     nav a {
-      color: white;
+      color: #fff;
       margin-left: 15px;
       text-decoration: none;
       font-weight: bold;
     }
-    .hero {
-      background: url('images/banner.jpg') center/cover no-repeat;
-      padding: 80px 20px;
-      text-align: center;
-      color: white;
+    .hero img,
+    .section-img img {
+      width: 100%;
+      height: auto;
+      display: block;
     }
-    .hero h2 {
-      font-size: 36px;
-    }
-    .hero p {
-      font-size: 18px;
-      margin: 10px 0 20px;
-    }
-    .btn {
-      background: #2f7d32;
-      color: white;
-      padding: 12px 25px;
-      text-decoration: none;
-      border-radius: 6px;
-      font-weight: bold;
-    }
-    section {
-      padding: 40px 20px;
+    .container {
       max-width: 1200px;
       margin: auto;
     }
-    .products {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 20px;
+    .products-img {
+      margin-top: 30px;
     }
-    .card {
-      background: white;
-      border-radius: 10px;
-      padding: 20px;
-      text-align: center;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    }
-    .card img {
-      width: 100%;
-      border-radius: 8px;
-    }
-    .card h3 {
-      margin: 15px 0 5px;
-    }
-    .contact {
-      background: #e8f0e8;
-      border-radius: 10px;
-      padding: 30px;
-    }
-    iframe {
-      width: 100%;
-      height: 300px;
-      border: 0;
-      border-radius: 10px;
-      margin-top: 20px;
+    .whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25d366;
+      color: white;
+      padding: 14px 18px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
     }
     footer {
       background: #1f4d2b;
@@ -105,51 +70,22 @@
   </nav>
 </header>
 
-<div class="hero" id="home">
-  <h2>Premium Areca Leaf Plates</h2>
-  <p>Eco-Friendly • 100% Biodegradable • Coimbatore</p>
-  <a class="btn" href="https://wa.me/9199810616">Order on WhatsApp</a>
-</div>
-
-<section id="products">
-  <h2>Our Products</h2>
-  <div class="products">
-    <div class="card">
-      <img src="images/4inch.jpg" alt="4 Inch Plate">
-      <h3>4 Inch Plate</h3>
-      <p>₹199 / 50 pcs</p>
-    </div>
-    <div class="card">
-      <img src="images/6inch.jpg" alt="6 Inch Plate">
-      <h3>6 Inch Plate</h3>
-      <p>₹299 / 50 pcs</p>
-    </div>
-    <div class="card">
-      <img src="images/8inch.jpg" alt="8 Inch Plate">
-      <h3>8 Inch Plate</h3>
-      <p>₹399 / 50 pcs</p>
-    </div>
-    <div class="card">
-      <img src="images/10inch.jpg" alt="10 Inch Plate">
-      <h3>10 Inch Plate</h3>
-      <p>₹499 / 50 pcs</p>
-    </div>
-    <div class="card">
-      <img src="images/12inch.jpg" alt="12 Inch Plate">
-      <h3>12 Inch Plate</h3>
-      <p>₹549 / 50 pcs</p>
-    </div>
-  </div>
+<!-- HERO / BANNER IMAGE -->
+<section id="home" class="hero">
+  <img src="images/banner.jpg" alt="RKS Areca Plate Banner">
 </section>
 
-<section id="contact">
-  <h2>Contact Us</h2>
-  <div class="contact">
-    <p><strong>Address:</strong> 18, Ramaswamy Nagar, 1st Street, Neelikonampalayam, Coimbatore – 641033</p>
-    <p><strong>Phone:</strong> 8807687960 / 999810616</p>
-    <iframe src="https://www.google.com/maps?q=Neelikonampalayam,Coimbatore&output=embed"></iframe>
-  </div>
+<!-- PRODUCTS IMAGE SECTION -->
+<section id="products" class="container products-img">
+  <img src="images/products.jpg" alt="RKS Areca Plate Products">
 </section>
+
+<!-- CONTACT IMAGE SECTION -->
+<section id="contact" class="container section-img">
+  <img src="images/contact.jpg" alt="RKS Areca Plate Contact Details">
+</section>
+
+<a class="whatsapp" href="https://wa.me/9199810616">Order on WhatsApp</a>
 
 <footer>
   © 2026 RKS Areca Plate | Eco Friendly Products
