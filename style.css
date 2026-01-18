@@ -58,6 +58,10 @@ header {
   text-align: center;
 }
 
+<div class="murugan-section">
+  <img src="images/murugan.jpg" alt="Lord Murugan">
+</div>
+
 footer {
   background: #2e7d32;
   color: white;
@@ -66,9 +70,11 @@ footer {
   position: relative;
 }
 
-.murugan {
-  width: 120px;
-  position: absolute;
-  right: 10px;
-  bottom: 10px;
+.murugan-section {
+  text-align: center;
+  margin-top: 40px;
+}
+.murugan-section img {
+  max-width: 220px;
+  border-radius: 12px;
 }
